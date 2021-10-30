@@ -7,7 +7,7 @@ export default function Login() {
       style={{
         flex: 1,
         justifyContent: "flex-start",
-        alignItems: "centeryarn add @react-navigation/native",
+        alignItems: "center",
       }}
     >
       <Image
@@ -18,10 +18,6 @@ export default function Login() {
         source={{ uri: "https://unsplash.com/photos/Hboh7zaDDcc" }}
       />
       <Text style={{ colour: "black" }}>Email</Text>
-      <Text style={{ colour: "black" }}>Username</Text>
-      <Text style={{ colour: "black" }}>ID</Text>
-      <Text style={{ colour: "black" }}>School</Text>
-      <Text style={{ colour: "black" }}>Favorite Subjects</Text>
     </View>
   );
 }
